@@ -1,0 +1,29 @@
+
+Dict example
+
+potassium = dict()
+potassium = {'Z':19, 'Symbol': 'K', 'Atomic Mass': 39.098}
+for k, v in potassium.items():
+   print(k, v)
+
+
+
+   import csv
+   >>> with open('data.txt') as csv_file:
+   ...    csv_reader = csv.reader(csv_file, delimiter=',')
+   ...    for row in csv_reader:
+   ...       print(row[0], row[1], row[2], row[3])
+
+
+
+BASIC EXAMPLE TO PLOT
+
+import matplotlib.pyplot as plt
+radians = np.arange(0, np.pi/180*360, 0.1)
+ampl = np.sin(radians)
+plt.plot(radians, ampl)
+plt.title('sine wave')
+plt.show()
+
+plot.grid(True, which='both')
+plot.axhline(y=0, color='k')
